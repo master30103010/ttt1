@@ -1,0 +1,13 @@
+program ttt;
+
+uses
+  Forms,
+  ttc in 'ttc.pas' {tc};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Ttc, tc);
+  Application.Run;
+end.
